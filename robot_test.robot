@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${url}       https://www.google.com
-${browser}   chrome
+${browser}   ff
 *** Test Cases ***
 opening browser
     open browser   ${url}   ${browser}
